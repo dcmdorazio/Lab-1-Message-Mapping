@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="" />
+    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
+      <change afterPath="$PROJECT_DIR$/src/resources/message.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC240_Week1MsgMapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CSC240_Week1MsgMapping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/messageMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messageMain.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,11 @@
     <option name="defaultAccountId" value="3eb79ccb-edb7-4085-a7bf-451365d7049b" />
   </component>
   <component name="ProjectId" id="1QDeGGMKnlBAdAUJYP39UBfngnu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -38,8 +47,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cxdor\IdeaProjects\CSC240_Week1MsgMapping\src\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,8 +78,23 @@
       <option name="presentableId" value="Default" />
       <updated>1567309498723</updated>
       <workItem from="1567309505236" duration="198000" />
-      <workItem from="1567311260805" duration="2819000" />
+      <workItem from="1567311260805" duration="6272000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
+      <created>1567378463050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567378463050</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
+      <created>1567378585821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567378585821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +110,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19" />
   </component>
 </project>
