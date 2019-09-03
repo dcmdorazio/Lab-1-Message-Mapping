@@ -78,7 +78,7 @@
       <workItem from="1567309505236" duration="198000" />
       <workItem from="1567311260805" duration="6393000" />
       <workItem from="1567477053151" duration="1498000" />
-      <workItem from="1567540129588" duration="1093000" />
+      <workItem from="1567540129588" duration="5492000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567385475620</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Commit: 09/01/19&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.">
+      <created>1567541515508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567541515508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
