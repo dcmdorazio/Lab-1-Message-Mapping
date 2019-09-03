@@ -12,6 +12,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class CSC240_Week1MsgMapping {
+int arr =
 
     String text = "";
     private File message = new File ("/message.txt");
@@ -27,3 +28,4 @@ public class CSC240_Week1MsgMapping {
 
 
 }
+
