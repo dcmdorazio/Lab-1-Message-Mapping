@@ -35,7 +35,8 @@ public class CSC240_Week1MsgMapping {
 
     public int remove(int index) {
         for (int i = 0; i < list.size(); i++) {
-            for(int)
+            //TODO: Finish nested 'for' loop
+           // for(int)
         }
 
     }

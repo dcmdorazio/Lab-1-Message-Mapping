@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC240_Week1MsgMapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CSC240_Week1MsgMapping.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="3eb79ccb-edb7-4085-a7bf-451365d7049b" />
+    <option name="defaultAccountId" value="137ba5c7-5d72-4f60-b643-13a394b0d869" />
   </component>
   <component name="ProjectId" id="1QDeGGMKnlBAdAUJYP39UBfngnu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -58,7 +58,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -109,6 +109,7 @@
       <workItem from="1567703595227" duration="3620000" />
       <workItem from="1567712136953" duration="4471000" />
       <workItem from="1567724111634" duration="4082000" />
+      <workItem from="1567817643367" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
