@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.">
+    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC240_Week1MsgMapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CSC240_Week1MsgMapping.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +39,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -50,7 +58,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -98,7 +106,9 @@
       <workItem from="1567651455315" duration="2773000" />
       <workItem from="1567655695169" duration="2041000" />
       <workItem from="1567660028340" duration="1885000" />
-      <workItem from="1567703595227" duration="2601000" />
+      <workItem from="1567703595227" duration="3620000" />
+      <workItem from="1567712136953" duration="4471000" />
+      <workItem from="1567724111634" duration="4082000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
@@ -163,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567661800619</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.">
+      <created>1567710604322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567710604322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

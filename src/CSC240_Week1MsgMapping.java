@@ -11,36 +11,61 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class CSC240_Week1MsgMapping {
+    ArrayList<String> list = new ArrayList<>();
+
+    //TODO: Make a 2D array
+    //TODO: Make array to store words (non duplicate)
+
+
+    public static boolean removeDuplicateWords(ArrayList<String> wordList) {
+        for (int i = 0; i < wordList.size(); i++) {
+            for (int j = i + 1; j < wordList.size(); j++) {
+                if (wordList.get(i).equals(wordList.get(j))) {
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
+
+    public int remove(int index) {
+        for (int i = 0; i < list.size(); i++) {
+            for(int)
+        }
+
+    }
+
     public static void main(String[] args) throws IOException {
 
         /*TODO: WHEN TRYING TO RUN THIS FILE, MAKE SURE YOU CHANGE THE PATHNAME OF THE .txt FILE
          *  TO WHERE YOU SAVED IT. THIS IS CRUCIAL IN ORDER TO HAVE THIS PROGRAM FUNCTION PROPERLY! */
         //File file = new File("C:\\Users\\cxdor\\IdeaProjects\\CSC240_Week1MsgMapping\\src\\message.txt");
-
-        //Scanner scan = new Scanner(System.in);
-        Scanner input = new Scanner(fileName);
-        String fileName = input.nextLine();
-        File file = new File(fileName);
-
-
+        Scanner cd = new Scanner(System.in);
         // This function will have the program ask for user input
-        System.out.println("Enter the name of the file you wish to use:");
+        System.out.print("Enter the name of the file you wish to use:");
+        String fileName = cd.nextLine();
+
+        File file = new File(fileName);
+        Scanner input = new Scanner(file);
+
 
         while (input.hasNextLine()) {
             System.out.println(input.nextLine());
             String st = input.next();
-            //TODO: Activate "words" variable and ArrayList.
-            ArrayList<String> words = new ArrayList<>(Arrays.asList(st));
 
+            //TODO: Activate "words" variable and ArrayList.
+            ArrayList<String> words = new ArrayList<>(Collections.singletonList(st));
 
             /* This for loop uses integers 'c' and 'd' to compare the words
-            * in the list, and eventually print them out*/
-            for (int c =0; i < words.size(); i++) {
-                for(int d = c + 1; d <words.size(); d++) {
-                    if (words.get(c).equals(words.get(d))) words.remove(c);
+             * in the list, and eventually print them out*/
+            for (int c = 0; c < words.size(); c++) {
+                for (int d = c + 1; d < words.size(); d++) {
+                    if (words.get(c).equals(words.get(d))) words.remove(d);
                 }
             }
             System.out.println(words);
@@ -48,5 +73,10 @@ public class CSC240_Week1MsgMapping {
 
 
     }
+
+//    @Override
+//    public int hashCode() {
+//        return super.hashCode();
+//    }
 }
 
