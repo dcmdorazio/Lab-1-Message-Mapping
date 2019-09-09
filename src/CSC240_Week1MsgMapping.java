@@ -15,11 +15,9 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class CSC240_Week1MsgMapping {
-    ArrayList<String> list = new ArrayList<>();
 
     //TODO: Make a 2D array
     //TODO: Make array to store words (non duplicate)
-
 
     public static boolean removeDuplicateWords(ArrayList<String> wordList) {
         for (int i = 0; i < wordList.size(); i++) {
@@ -33,13 +31,31 @@ public class CSC240_Week1MsgMapping {
         return false;
     }
 
-    public int remove(int index) {
+
+    // Removes duplicate words from original "List"
+    public static <String> ArrayList<String> removeDuplicates(ArrayList<String> list) {
+        // Creates new list
+        ArrayList<String> newList = new ArrayList<String>();
+        // Scans old list, and places non duplicated words into new list.
+        for (String word : list) {
+
+            // If this word is not in newList, add it
+            if (!list.contains(word)) {
+
+                newList.add(word);
+            }
+        }
+
+        // return the new list, non duplicated words list
+        return list;
+    }
+   /* public int remove(int index) {
         for (int i = 0; i < list.size(); i++) {
             //TODO: Finish nested 'for' loop
            // for(int)
         }
 
-    }
+    } */
 
     public static void main(String[] args) throws IOException {
 
@@ -52,26 +68,6 @@ public class CSC240_Week1MsgMapping {
         String fileName = cd.nextLine();
 
         File file = new File(fileName);
-        Scanner input = new Scanner(file);
-
-
-        while (input.hasNextLine()) {
-            System.out.println(input.nextLine());
-            String st = input.next();
-
-            //TODO: Activate "words" variable and ArrayList.
-            ArrayList<String> words = new ArrayList<>(Collections.singletonList(st));
-
-            /* This for loop uses integers 'c' and 'd' to compare the words
-             * in the list, and eventually print them out*/
-            for (int c = 0; c < words.size(); c++) {
-                for (int d = c + 1; d < words.size(); d++) {
-                    if (words.get(c).equals(words.get(d))) words.remove(d);
-                }
-            }
-            System.out.println(words);
-        }
-
 
     }
 
@@ -79,5 +75,7 @@ public class CSC240_Week1MsgMapping {
 //    public int hashCode() {
 //        return super.hashCode();
 //    }
+
+
 }
 

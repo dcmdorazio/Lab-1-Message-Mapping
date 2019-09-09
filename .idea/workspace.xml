@@ -4,12 +4,30 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="" />
+    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/message.txt" beforeDir="false" afterPath="$PROJECT_DIR$/message.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,7 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="137ba5c7-5d72-4f60-b643-13a394b0d869" />
+    <option name="defaultAccountId" value="3eb79ccb-edb7-4085-a7bf-451365d7049b" />
   </component>
   <component name="ProjectId" id="1QDeGGMKnlBAdAUJYP39UBfngnu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -43,6 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -55,11 +74,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cxdor\IdeaProjects\Lab-1-Message-Mapping" />
       <recent name="C:\Users\cxdor\IdeaProjects\CSC240_Week1MsgMapping\src" />
       <recent name="C:\Users\cxdor\IdeaProjects\CSC240_Week1MsgMapping\src\resources" />
     </key>
@@ -107,6 +127,9 @@
       <workItem from="1567712136953" duration="4471000" />
       <workItem from="1567724111634" duration="4082000" />
       <workItem from="1567817643367" duration="1301000" />
+      <workItem from="1567983351629" duration="2145000" />
+      <workItem from="1567988634841" duration="8181000" />
+      <workItem from="1568043733787" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
