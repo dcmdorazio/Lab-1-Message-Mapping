@@ -56,6 +56,30 @@ public class CSC240_Week1MsgMapping {
         }
 
     } */
+   private input() {
+
+
+       Scanner input = new Scanner(file);
+
+
+       while (input.hasNextLine()) {
+           System.out.println(input.nextLine());
+           String st = input.next();
+
+           //TODO: Activate "words" variable and ArrayList.
+           ArrayList<String> words = new ArrayList<>(Collections.singletonList(st));
+
+           /* This for loop uses integers 'c' and 'd' to compare the words
+            * in the list, and eventually print them out*/
+           for (int c = 0; c < words.size(); c++) {
+               for (int d = c + 1; d < words.size(); d++) {
+                   if (words.get(c).equals(words.get(d))) words.remove(d);
+               }
+           }
+           System.out.println(words);
+       }
+       return;
+   }
 
     public static void main(String[] args) throws IOException {
 
