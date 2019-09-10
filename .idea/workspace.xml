@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +37,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Cody D'Orazio &lt;44353948+dcmdorazio@users.noreply.github.com&gt;" />
         <option value="Cody D'Orazio &lt;cxdorazio@gmail.com&gt;" />
+        <option value="Cody D'Orazio &lt;44353948+dcmdorazio@users.noreply.github.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,7 +131,7 @@
       <workItem from="1568064064223" duration="172000" />
       <workItem from="1568064269660" duration="476000" />
       <workItem from="1568065283078" duration="226000" />
-      <workItem from="1568065443397" duration="7903000" />
+      <workItem from="1568065443397" duration="8246000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
@@ -226,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568065504757</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19:">
+      <created>1568084845169</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568084845169</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +257,7 @@
     <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code." />
     <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/04/19: Had to start over because the code was incorrect." />
     <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class." />
+    <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19:" />
   </component>
 </project>
