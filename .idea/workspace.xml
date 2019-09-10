@@ -4,7 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="" />
+    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="3eb79ccb-edb7-4085-a7bf-451365d7049b" />
+    <option name="defaultAccountId" value="137ba5c7-5d72-4f60-b643-13a394b0d869" />
   </component>
   <component name="ProjectId" id="1QDeGGMKnlBAdAUJYP39UBfngnu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -70,7 +74,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -94,7 +98,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="CSC240_Week1MsgMapping" />
+      <option name="MAIN_CLASS_NAME" value="runner" />
       <module name="CSC240_Week1MsgMapping" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,6 +133,7 @@
       <workItem from="1568064064223" duration="172000" />
       <workItem from="1568064269660" duration="476000" />
       <workItem from="1568065283078" duration="226000" />
+      <workItem from="1568065443397" duration="7903000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
