@@ -4,7 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="" />
+    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/runMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.runMe">
     <configuration name="Run it" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CSC240_Week1MsgMapping" />
       <module name="CSC240_Week1MsgMapping" />
@@ -100,6 +104,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runMe" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="runMe" />
+      <module name="CSC240_Week1MsgMapping" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run it" />
+      <item itemvalue="Application.runMe" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\cxdor\AppData\Roaming\Subversion</configuration>
@@ -133,6 +148,7 @@
       <workItem from="1568085162022" duration="2821000" />
       <workItem from="1568138184154" duration="3450000" />
       <workItem from="1568141914279" duration="6157000" />
+      <workItem from="1568153368093" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
