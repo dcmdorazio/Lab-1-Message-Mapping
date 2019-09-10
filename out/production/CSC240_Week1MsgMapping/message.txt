@@ -1,3 +1,0 @@
-The light is on.
-The light is off.
-Automatic lights are enabled.

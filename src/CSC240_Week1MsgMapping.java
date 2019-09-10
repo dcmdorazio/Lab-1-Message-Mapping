@@ -7,22 +7,92 @@
  * Last Edited: 09/09/19
  */
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class CSC240_Week1MsgMapping {
+
+    public static void main(String[] args) throws IOException {
+        ArrayList<String> list = new ArrayList<>();
+
+        /*This scanner, called "c", is what I decided to name my scanner funtion. */
+        Scanner c = new Scanner(System.in);
+
+        System.out.print("Enter the name of the file you wish to use: ");
+        String fileName = c.nextLine();
+        File file = new File(fileName);
+
+        /*This scanner called "input" will be used to take
+         * the users input into the machine for use.*/
+        Scanner input = new Scanner(file);
+        //int counter = 0;
+
+        /* The while and for loop below, is used to process the words
+         * in the list and print them out in "List Formation". */
+        while (input.hasNextLine()) {
+            list.add(input.next());
+        }
+        for (String cd : list) {
+            System.out.println(cd);
+        }
+    }
     /*reads a list puts it into a new list, and reads off the old list for duplicates
     and re-attatches it to the second list.*/
     // using the contains() method for the statement above
 
-    //TODO: Make a 2D array
-    //TODO: Make array to store words (non duplicate)
-    //TODO: Have an array that counts the longest line in the txt file
-    //TODO: Make a loop that scans the document
+
+    public static String[] removeDuplicate(String[] words){
+        // remember which word is a duplicate
+        boolean[] isDuplicate = new boolean[words.length];
+        // and count them
+        int countDuplicate = 0;
+        for (int i = 0; i < words.length ; i++){
+            // only check "forward" because "backwards checked" duplicates have been marked yet
+            for(int j = i + 1; j < words.length ; j++){
+                if (words[i].equals(words[j])) {
+                    isDuplicate[j] = true;
+                    countDuplicate++;
+                }
+            }
+        }
+        // collect non-duplicate strings
+        String[] lastList = new String[words.length - countDuplicate];
+        int j = 0;
+        for (int i = 0; i < isDuplicate.length; i++) {
+            if (!isDuplicate[i]) {
+                lastList[j] = words[i];
+                j++;
+            }
+        }
+        // and return them
+        return lastList;
+    }
 
 
-    public static boolean removeDuplicateWords(ArrayList<String> wordList) {
+//TODO: Have an array that counts the longest line in the txt file
+
+   /* private static void removeDuplicateWords(ArrayList<String> wordList) {
+        for (int i = 0; i < wordList.size(); i++) {
+            for (int j = i + 1; j < wordList.size(); j++) {
+                if (wordList.get(i).equals(wordList.get(j))) {
+                    return;
+                }
+            }
+
+        }
+    }*/
+
+/* END OF CSC240_WEEK1MSGMAPPING.JAVA */
+}
+
+/* THE COMMENTS BELOW ARE LEFT IN THIS FILE BECAUSE THEY INCLUDE OLD / IN PROGRESS
+*  IDEAS. THESE WERE ALSO USED TO TEST MY IDEAS WITH MY ACTUAL RUNNING CODE*/
+
+/**/ /**/ /**/ /**/ /**/ /*PLEASE*/ /*SEE*/ /*BELOW*/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
+
+/* public static boolean removeDuplicateWords(ArrayList<String> wordList) {
         for (int i = 0; i < wordList.size(); i++) {
             for (int j = i + 1; j < wordList.size(); j++) {
                 if (wordList.get(i).equals(wordList.get(j))) {
@@ -32,58 +102,15 @@ public class CSC240_Week1MsgMapping {
 
         }
         return false;
-    }
-
-
-    // Removes duplicate words from original "List"
-    public static <String> ArrayList<String> removeDups(ArrayList<String> list) {
-
-        // Creates a new arrayList called "nextList"
-        ArrayList<String> nextList = new ArrayList<String>();
-
-        // Scans old list, and places non duplicated words into new list.
-        for (String word : list) {
-            // If this word is not in the list then add that sucker into the array!!
-            if (!list.contains(word)) {
-                nextList.add(word);
-            }
-        }
-//TODO: Left of here
-        // return the new list, non duplicated words list
-        return list;
-    }
-   /* public int remove(int index) {
-        for (int i = 0; i < list.size(); i++) {
-            //TODO: Finish nested 'for' loop
-           // for(int)
-        }
-
     } */
 
-    private input() {
+///////////////////////////////////////////////////////////////////////////////
 
-        Scanner input = new Scanner(file);
-
-
-        while (input.hasNextLine()) {
-            System.out.println(input.nextLine());
-            String st = input.next();
-
-            //TODO: Activate "words" variable and ArrayList.
-            ArrayList<String> words = new ArrayList<>(Collections.singletonList(st));
-
-            /* This for loop uses integers 'c' and 'd' to compare the words
-             * in the list, and eventually print them out*/
-            for (int c = 0; c < words.size(); c++) {
-                for (int d = c + 1; d < words.size(); d++) {
-                    if (words.get(c).equals(words.get(d))) words.remove(d);
-                }
-            }
-            System.out.println(words);
+/*public void showPatients(String name) {
+    boolean match = false;
+    for(matchingname : patientList) {
+        if (matchingname.toLowerCase.contains(name.toLowerCase())) {
+            match = true;
         }
-        return;
     }
-
-
-}
-
+} */
