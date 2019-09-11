@@ -32,24 +32,6 @@ public class CSC240_Week1MsgMapping {
 
         // Initializes the file path from the given .txt the user gives.
         File file = new File(fileName);
-       /* if (file.exists()) {
-            try {
-                FileReader fileReader = new FileReader(file);
-                LineNumberReader fR = new LineNumberReader(fileReader);
-                int lineNumberCount = 0;
-
-                    while(fileReader.getLineCounter() != null) {
-                        lineNumberCount ++;
-                    }
-                    System.out.println("test quote");
-
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
-        }*/
-
-
-
 
         /* THE PRINT FUNCTION BELOW WILL PRINT OUT THE FILE NAME THE USER
          *  HAS CHOSEN TO BE READ AND USED IN THIS PROGRAM*/
@@ -159,5 +141,21 @@ public class CSC240_Week1MsgMapping {
                 }
             } catch (FileNotFoundException a) {
                 a.printStackTrace();
+            }
+        }*/
+
+/* if (file.exists()) {
+            try {
+                FileReader fileReader = new FileReader(file);
+                LineNumberReader fR = new LineNumberReader(fileReader);
+                int lineNumberCount = 0;
+
+                    while(fileReader.getLineCounter() != null) {
+                        lineNumberCount ++;
+                    }
+                    System.out.println("test quote");
+
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
             }
         }*/
