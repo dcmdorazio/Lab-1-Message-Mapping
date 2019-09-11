@@ -4,11 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="">
+    <list default="true" id="509701b9-7e28-437b-b561-40cd742995db" name="Default Changelist" comment="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19: Fixed the output once the user types their .txt file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CSC240_Week1MsgMapping/CSC240_Week1MsgMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC240_Week1MsgMapping/CSC240_Week1MsgMapping.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSC240_Week1MsgMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/runMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/runMe.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="F:/On The Go Code/anthonys lab1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Brute Force Example" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,7 +138,7 @@
       <workItem from="1568138184154" duration="3450000" />
       <workItem from="1568141914279" duration="6157000" />
       <workItem from="1568153368093" duration="2126000" />
-      <workItem from="1568159999159" duration="3574000" />
+      <workItem from="1568159999159" duration="15984000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;Developer: Cody D'Orazio&#10;Date: 09/1/19">
       <created>1567378463050</created>
@@ -253,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568156532708</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19: Fixed the output once the user types their .txt file.">
+      <created>1568164622540</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568164622540</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +287,7 @@
     <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class." />
     <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19:" />
     <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19: Fixed the remainding methods and allowed the output to print." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19: Fixed the remainding methods and allowed the output to print." />
+    <MESSAGE value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19: Fixed the output once the user types their .txt file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit: 09/01/19&#10;&#10;Commit Log:&#10;09/01/19: Created Files for the initialization of the application.&#10;09/03/19: Code is re-arranged to accept the incoming file code.&#10;09/03/19: Had to start over because the code was incorrect.&#10;09/04/19: Moved 'Main' method from its own java class, to the MsgMapping.java class.&#10;09/09/19: Refurbished &quot;runner.java&quot;(MAIN METHOD). Implimented new methods&#10;          to CSC240_Week1MsgMapping.java.&#10;09/10/19: Fixed the output once the user types their .txt file." />
   </component>
 </project>
