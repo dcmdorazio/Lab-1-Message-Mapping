@@ -9,88 +9,41 @@
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class CSC240_Week1MsgMapping {
 
-    /* Initializes the "lineCounter" for the program to
-     *  print out the total number of messages in the given .txt file. */
-    private static int lineCounter = 0;  // this is a "java object"
-
-
-    public static void main(String[] args) throws IOException {
-        //First array in project
-        ArrayList<String> list = new ArrayList<>();
-
-        /*This scanner, called "c", is what I decided to name my scanner funtion. */
-        Scanner c = new Scanner(System.in);
-
-        /* The 3 lines of code below, are to take the users input to parse the .txt file
-         ** the user inputs with they keyboard*/
-        System.out.print("Enter the name of the file you wish to use: ");
-        String fileName = c.nextLine();
-
-        // Initializes the file path from the given .txt the user gives.
-        File file = new File(fileName);
-
-        /* THE PRINT FUNCTION BELOW WILL PRINT OUT THE FILE NAME THE USER
-         *  HAS CHOSEN TO BE READ AND USED IN THIS PROGRAM*/
-        System.out.println("\n" + "The name of the file you have chosen is: " + fileName + "\n");
-
-        /*This scanner called "input" will be used to take
-         * the users input into the machine for use.*/
-        Scanner input = new Scanner(file);
-
-        // This while loop will take the users input and view the words, and then adding them into the list
-        while (input.hasNext()) {
-            //TODO: move the below "lineCounter"
-            //lineCounter++;
-            list.add(input.next());
-        }
-        System.out.println("These are the words the file, without the duplicates: ");
-        ArrayList<String> nextList = removeDups(list);
-        for (String x : nextList) {
-            System.out.println(x);
-        }
-
-        // This print statement should print the message count of the file given by the user.
-        // /*THIS NEEDS TO BE DEBUGGED*/
-        System.out.println("\n" + "The amount of Messages in " + fileName + " is: " + getLineCounter(fileName));
-    }
-
     /* This method will remove the duplicate words from the .txt file!*/
-    private static <String> ArrayList<String> removeDups(ArrayList<String> list) {
+    static <String> ArrayList<String> removeDups(ArrayList<String> list) {
         //Second array in project
-        ArrayList<String> nextList = new ArrayList<>();
+        ArrayList<String> list2 = new ArrayList<>();
 
+        /* Loop that will search for duplicates*/
         for (String words : list) {
-            if (!nextList.contains(words)) {
-                nextList.add(words);
+            if (list2.contains(words)) {
+                continue;
             }
+            list2.add(words);
         }
-        return nextList;
+        // Returns the second array list that removes the duplicates in the users .txt file
+        return list2;
     }
 
     /* This method is used to get the total amount
     *  of lines in the users .txt file*/
-    private static int getLineCounter(String filename) throws IOException {
-        try (InputStream is = new BufferedInputStream(new FileInputStream(filename))) {
+    static int getLineCounter(File findLine) throws IOException {
+        try (InputStream is = new BufferedInputStream(new FileInputStream(findLine))) {
             byte[] c = new byte[1024];
             int lineCounter = 0;
-            int readChars = 0;
+            int readChars;
             while ((readChars = is.read(c)) != -1) {
-                for (int i = 0; i < readChars; ++i) {
-                    if (c[i] == '\n') {
-                        lineCounter ++;
-                    }
-                }
+                lineCounter += IntStream.range(0, readChars).filter(i -> c[i] == '\n').count();
             }
             int i = lineCounter;
             return lineCounter;
 
         }
     }
-
 }
 
 /*THE COMMENTED CODE BELOW THIS LINE ARE TEST METHODS AND
